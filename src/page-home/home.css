@@ -1,0 +1,19 @@
+.country-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid red;
+    margin-top: 20px;
+   
+}
+
+.country {
+    width: 20%;
+    border: 1px solid blue;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.country img {
+    width: 80%;
+}
