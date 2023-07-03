@@ -3,6 +3,7 @@ import data from "../data/data.json";
 import { useState } from "react";
 import Search from "../components/search/search";
 import Filter from "../components/filter/filter";
+import Header from "../components/header/header";
 
 const Home = () => {
   const [countries, setCountries] = useState(data);
@@ -28,9 +29,12 @@ const Home = () => {
 
   return (
     <>
-      <Search handleSearch={handleSearch} />
-      <Filter handleFilter={handleFilter} />
-      <div className="country-container">
+      <Header />
+      <div className="filters">
+        <Search handleSearch={handleSearch} />
+        <Filter handleFilter={handleFilter} />
+      </div>
+      <div className="country-container .app.dark">
         {filteredCountries.map((country) => (
           <div className="country">
             <img src={country.flags.png} alt={"Logo do " + country.name} />
