@@ -1,0 +1,13 @@
+.details-container {
+    width: 90%;
+    margin: auto auto;
+    border: 2px solid violet;
+}
+.datails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img {
+    width: 35%;
+}
