@@ -6,3 +6,11 @@
   box-sizing: border-box;
   font-family: 'Nunito Sans', sans-serif;
 }
+
+.bold800 {
+  font-weight: 800;
+}
+
+.bold600 {
+  font-weight: 600;
+}

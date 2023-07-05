@@ -32,14 +32,6 @@
     margin-left: 8px;
 }
 
-.bold800 {
-    font-weight: 800;
-}
-
-.bold600 {
-    font-weight: 600;
-}
-
 @media(max-width: 650px) {
     .filters {
         flex-direction: column;
