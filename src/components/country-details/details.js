@@ -1,6 +1,7 @@
 import "./details.css";
 import data from "../../data/data.json";
 import { Link } from "react-router-dom";
+import numeral from "numeral";
 
 const CountryDetails = ({ match }) => {
   const countryName = match.params.name;
@@ -19,7 +20,7 @@ const CountryDetails = ({ match }) => {
         <div>
           <h1>{country.name}</h1>
           <p>Nome nativo: {country.nativeName}</p>
-          <p>População: {country.population}</p>
+          <p>População: {numeral(country.population).format('0,0')}</p>
           <p>Região: {country.region}</p>
           <p>Sub região: {country.subregion}</p>
           <p>Capital: {country.capital}</p>
