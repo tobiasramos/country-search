@@ -1,7 +1,7 @@
 .header-container {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   justify-content: space-between;
   box-shadow: 5px 5px 10px hsl(0, 0%, 52%);
 }
