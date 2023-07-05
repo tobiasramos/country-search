@@ -4,7 +4,7 @@ import { useState } from "react";
 import Search from "../components/search/search";
 import Filter from "../components/filter/filter";
 import { useHistory } from "react-router-dom";
-import numeral from 'numeral';
+import numeral from "numeral";
 
 const Home = () => {
   const [countries, setCountries] = useState(data);
@@ -50,7 +50,8 @@ const Home = () => {
             <div className="description">
               <h4 className="bold800">{country.name}</h4>
               <p>
-                <span className="bold600">População:</span> {numeral(country.population).format('0,0')}
+                <span className="bold600">População:</span>{" "}
+                {numeral(country.population).format("0,0")}
               </p>
               <p>
                 <span className="bold600">Região:</span> {country.region}

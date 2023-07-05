@@ -8,3 +8,9 @@ select {
 select:focus {
     outline: none;
 }
+
+@media(max-width: 650px) {
+    .selectr {
+        margin: auto auto;
+    }
+}

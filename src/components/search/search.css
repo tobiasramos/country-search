@@ -19,3 +19,10 @@ input {
 input:focus {
     outline: none;
 }
+
+@media(max-width: 650px) {
+    .search-container {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}

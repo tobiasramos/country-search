@@ -61,7 +61,7 @@ const CountryDetails = ({ match }) => {
               <span>{country.languages[0].name}</span>
             </li>
           </ul>
-          <p>Países fronteiriçõs: {country.borders.join(" ")}</p> 
+          <p><span className="bold600">Países fronteiriçõs:</span> <span>{country.borders.join(" ")}</span></p> 
         </div>
       </article>
     </div>
