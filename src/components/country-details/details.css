@@ -11,3 +11,15 @@
 img {
     width: 35%;
 }
+
+.description {
+    width: 40%;
+}
+.descriptions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description p {
+    margin-left: 10px;
+}
