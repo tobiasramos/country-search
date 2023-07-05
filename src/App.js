@@ -7,13 +7,15 @@ import Header from "../src/components/header/header";
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/country/:name" component={CountryDetails} />
-      </Switch>
-    </Router>
+    <div className="App">
+      <Router>
+        <Header />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/country/:name" component={CountryDetails} />
+        </Switch>
+      </Router>
+    </div>
   );
 }
 

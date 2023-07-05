@@ -46,9 +46,18 @@ const Home = () => {
             onClick={() => handleClick(country.name)}
           >
             <img src={country.flags.png} alt={"Logo do " + country.name} />
-            <p>{country.name}</p>
-            <p>{country.population}</p>
-            <p>{country.region}</p>
+            <div className="description">
+              <h4>{country.name}</h4>
+              <p>
+                <span className="bold">População:</span> {country.population}
+              </p>
+              <p>
+                <span className="bold">Região:</span> {country.region}
+              </p>
+              <p>
+                <span className="bold">Capital:</span> {country.capital}
+              </p>
+            </div>
           </div>
         ))}
       </div>

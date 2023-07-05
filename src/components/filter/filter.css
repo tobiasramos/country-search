@@ -1,5 +1,6 @@
 select {
-    padding: 5px;
+    cursor: pointer;
+    padding: 10px;
     border: none;
 }
 
