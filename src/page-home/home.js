@@ -47,15 +47,15 @@ const Home = () => {
           >
             <img src={country.flags.png} alt={"Logo do " + country.name} />
             <div className="description">
-              <h4>{country.name}</h4>
+              <h4 className="bold800">{country.name}</h4>
               <p>
-                <span className="bold">População:</span> {country.population}
+                <span className="bold600">População:</span> {country.population}
               </p>
               <p>
-                <span className="bold">Região:</span> {country.region}
+                <span className="bold600">Região:</span> {country.region}
               </p>
               <p>
-                <span className="bold">Capital:</span> {country.capital}
+                <span className="bold600">Capital:</span> {country.capital}
               </p>
             </div>
           </div>

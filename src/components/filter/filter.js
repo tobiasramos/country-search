@@ -12,7 +12,7 @@ const Filter = ({ handleFilter }) => {
   return (
     <div>
       <select value={selectedOption} onChange={handleFilterChange}>
-        <option>Filtar por região</option>
+        <option>Filtrar por região</option>
         <option value="Africa">África</option>
         <option value="Americas">América</option>
         <option value="Asia">Ásia</option>
