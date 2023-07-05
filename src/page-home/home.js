@@ -3,7 +3,7 @@ import data from "../data/data.json";
 import { useState } from "react";
 import Search from "../components/search/search";
 import Filter from "../components/filter/filter";
-import { useHistory } from 'react-router-dom';
+import { useHistory } from "react-router-dom";
 
 const Home = () => {
   const [countries, setCountries] = useState(data);
