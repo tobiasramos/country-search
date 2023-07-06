@@ -1,6 +1,6 @@
 # Country Search
 
-O country search é uma lista que contém todos os países com algumas informação, como população, região, capital, entre muitos outros. Você usuário pode pesquisar o nome do país ou pode fazer uma filtragem por região. Para ver sua especificação basta clicar no quadro do país e será direcionando pra uma página contendo mais informação.
+O Country Search é uma ferramenta destinada aos usuários interessados em conhecer mais sobre diferentes países ao redor do mundo. Trata-se de uma extensa lista de nações, acompanhada de informações relevantes, tais como população, região geográfica, capital e diversos outros dados. Com o Country Search, você tem a opção de buscar países pelo nome específico ou realizar uma filtragem com base na região, facilitando a extração das informações desejadas. Ao selecionar um país, você será redirecionado para uma página dedicada, repleta de detalhes e curiosidades sobre o mesmo.
 
 ## Instalação
 
